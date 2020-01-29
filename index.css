@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 0;
+  scroll-behavior: smooth;
 }
 
 .bold {
@@ -29,10 +30,20 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: rgb(255, 255, 255, 0.27);
   position: fixed;
   top: 0;
   height: 30px;
+}
+
+.nav-transparent {
+  background-color: rgb(255, 255, 255, 0.27);
+}
+
+.nav-colored {
+  background-color: white;
+  -webkit-box-shadow: 0 8px 6px -6px #E0E0E0;
+  -moz-box-shadow: 0 8px 6px -6px #E0E0E0;
+  box-shadow: 0 8px 6px -6px #E0E0E0;
 }
 
 .navContent {
@@ -85,6 +96,7 @@ body {
   justify-content: center;
   flex-direction: column;
   letter-spacing: 0;
+  z-index: -1;
 }
 
 .imgContainer {
@@ -161,16 +173,14 @@ body {
   object-fit: cover;
 }
 
-
 .sectionImg {
   display: flex;
   align-items: center;
   z-index: -1;
-  
 }
 
-.x{
-    position: relative;
+.x {
+  position: relative;
 }
 
 .ml {
@@ -275,7 +285,7 @@ body {
     left: -50px;
   }
 
-  .fixed-right{
+  .fixed-right {
     position: absolute;
     top: 20px;
     right: -70px;
