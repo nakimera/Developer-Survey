@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
 
 body {
   font-family: Montserrat;
@@ -9,6 +9,10 @@ body {
 
 .bold {
   font-weight: bold;
+}
+
+.regular {
+  font-weight: 100;
 }
 
 .primary {
@@ -144,7 +148,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* border: #ffaf2f solid 1px; */
 }
 
 .sectionTxt {
@@ -155,11 +158,14 @@ body {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
+
 
 .sectionImg {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .ml {
@@ -256,5 +262,17 @@ body {
 
   .footer {
     height: 100px;
+  }
+
+  .fixed-left {
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  }
+
+  .fixed-right{
+    position: absolute;
+    top: 280px;
+    right: 120px;
   }
 }
