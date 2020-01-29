@@ -180,6 +180,7 @@ body {
 .footer {
   background-color: #3256b8;
   height: 30px;
+  color: white;
 }
 
 .chatImg {
@@ -265,7 +266,7 @@ body {
   }
 
   .footer {
-    height: 100px;
+    height: 80px;
   }
 
   .fixed-left {
