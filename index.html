@@ -9,55 +9,92 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="navbar" id="navBar">
-      <div class="navContent">
+    <!-- navigation bar -->
+    <div class="navbar fixed" id="navBar">
+      <div class="barContent relative v-center-align">
         <p class="navText light-blue">
           The annual Developer survey 2019
         </p>
-        <div class="navBtn">
-          <button class="btnDownload">
+        <div class="absolute float-right">
+          <button class="btn btn-primary btn-small">
             <span class="regular">Download</span>
           </button>
         </div>
       </div>
     </div>
-    <div class="header">
-      <div class="content">
-        <div class="textContainer">
-          <div class="headerText">
-            <span class="primary bold"
-              >The annual <br />Developer survey<br />
-              <span class="orange">2019</span></span
-            >
-          </div>
-          <div class="headerBtn">
-            <button class="btnDownload btnBig">
-              <span class="regular">Download</span>
-            </button>
-          </div>
-          <div class="headerFooter">
-            <div class="hfText">Powered by</div>
-            <div class="hfImg">
+    <!-- banner section -->
+    <div class="banner">
+      <div class="textContainer">
+        <div class="bannerHeading bottom-align">
+          <span class="heading primary bold"
+            >The annual <br />Developer survey<br />
+            <span class="orange">2019</span></span
+          >
+        </div>
+        <div class="bannerBtn bottom-align">
+          <button class="btn btn-primary btnBig">
+            <span class="regular">Download</span>
+          </button>
+        </div>
+        <div class="bannerFooter bottom-align">
+          <div class="hfText v-center-align bold">Powered by</div>
+          <div class="hfImg v-center-align">
+            <a href="https://andela.com/" target="_blank">
               <img
                 src="./assets/1VDu52_RuStTXUminAc2UzA@2x.png"
                 alt="Andela"
                 class="companyLogo"
-              />
-            </div>
+            /></a>
           </div>
         </div>
-        <div class="imgContainer">
-          <img src="./assets/Group 28.png" class="headerImg" />
+      </div>
+      <div class="imgContainer relative">
+        <img src="./assets/Group 28.png" class="absolute bannerImg" />
+      </div>
+    </div>
+    <!-- engineering journey section -->
+    <div class="section">
+      <div class="col-4">
+        <div class="heading primary bold">
+          Engineering <br />
+          journey
+        </div>
+        <div class="sectionTxt primary">
+          <p class="regular">
+            simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry’s standard dummy text ever since the
+            1500s, when an unknown printer took a galley of type and scrambled
+            it to make a type specimen book. It has survived not only five
+            centuries
+          </p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="relative h-center-align">
+          <img
+            src="./assets/Group 26.png"
+            class="chatImg absolute fixed-left"
+          />
+          <img src="./assets/kampala@2x.png" alt="Kampala" class="roundedImg" />
         </div>
       </div>
     </div>
+    <!-- local tech Landscape section -->
     <div class="section">
-      <div>
-        <div class="sectionHdg primary">
-          <span class="bold"
-            >Engineering <br />
-            journey</span
-          >
+      <div class="col-5">
+        <div class="relative h-center-align">
+          <img
+            src="./assets/Group 27.png"
+            class="chatImg absolute fixed-right"
+          />
+          <img src="./assets/Image 1@2x.png" alt="photo" class="roundedImg" />
+        </div>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-4">
+        <div class="heading primary bold">
+          Local Tech <br />
+          Landscape
         </div>
         <br />
         <div class="sectionTxt primary">
@@ -70,51 +107,21 @@
           </p>
         </div>
       </div>
-      <div class="sectionImg">
-        <div class="x">
-          <img src="./assets/Group 26.png" class="chatImg fixed-left" />
-          <img src="./assets/kampala@2x.png" alt="Kampala" class="roundedImg" />
-        </div>
-      </div>
     </div>
-    <div class="section">
-      <div class="sectionImg">
-        <div class="x">
-          <img src="./assets/Group 27.png" class="chatImg fixed-right" />
-          <img src="./assets/Image 1@2x.png" alt="Kampala" class="roundedImg" />
-        </div>
-      </div>
-      <div>
-        <div class="sectionHdg primary ml">
-          <span class="bold"
-            >Local Tech <br />
-            Landscape</span
-          >
-        </div>
-        <br />
-        <div class="sectionTxt primary ml">
-          <p class="regular">
-            simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry’s standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five
-            centuries
-          </p>
-        </div>
-      </div>
-    </div>
+    <!-- the footer -->
     <div class="footer">
-      <div class="navContent">
+      <div class="barContent relative v-center-align">
         <p class="regular">
           Powered by
         </p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img
-          src="./assets/1VDu52_RuStTXUminAc2UzA@2x.png"
-          alt="Andela"
-          class="companyLogo"
-        />
-        <div class="navBtn">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://andela.com/" target="_blank">
+          <img
+            src="./assets/1VDu52_RuStTXUminAc2UzA@2x.png"
+            alt="Andela"
+            class="companyLogo"
+        /></a>
+        <div class="absolute float-right">
           <span class="regular">Copyright 2020</span>
         </div>
       </div>
