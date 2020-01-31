@@ -27,11 +27,11 @@ body {
 }
 
 .heading {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .paragraph {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* font color */
@@ -83,15 +83,11 @@ body {
 .btn {
   border-radius: 30px;
   opacity: 1;
-  font-size: 8px;
-  font-weight: bold;
+  font-size: 10px;
   cursor: pointer;
   border: 0;
-}
-
-.btn-small {
-  width: 70px;
-  height: 20px;
+  height: 30px;
+  width: 80px;
 }
 
 .btn-primary {
@@ -108,7 +104,7 @@ body {
 .navbar {
   width: 100%;
   top: 0;
-  height: 30px;
+  height: 50px;
   z-index: 1;
 }
 
@@ -133,11 +129,12 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: 30px;
+  margin-bottom: 0;
   height: 40vh;
 }
 
 .textContainer {
-  width: 35%;
+  width: 50%;
 }
 
 .imgContainer {
@@ -152,7 +149,7 @@ body {
 }
 
 .bannerHeading {
-  height: 50%;
+  height: 65%;
 }
 
 .bannerBtn {
@@ -160,7 +157,7 @@ body {
 }
 
 .bannerFooter {
-  height: 15%;
+  height: 10%;
 }
 
 .hfText {
@@ -215,9 +212,9 @@ body {
 
 /* footer section */
 .footer {
-  font-size: 10px;
+  font-size: 14px;
   background-color: #3256b8;
-  height: 30px;
+  height: 60px;
   color: white;
 }
 
@@ -246,12 +243,10 @@ body {
 
   .col-6 {
     width: 60%;
-    /* border: #ffaf2f solid 1px; */
   }
 
   .col-4 {
     width: 40%;
-    /* border: #ffaf2f solid 1px; */
   }
 
   .col-5 {
@@ -260,14 +255,14 @@ body {
 
   .col-1 {
     width: 10%;
-    /* border: #ffaf2f solid 1px; */
   }
 
   .heading {
     font-size: 48px;
   }
+
   .navbar {
-    height: 86px;
+    height: 100px;
   }
 
   .navText {
@@ -279,8 +274,8 @@ body {
   }
 
   .btn {
-    width: 146px;
-    height: 45px;
+    width: 150px;
+    height: 55px;
     font-size: 18px;
   }
 
@@ -291,6 +286,10 @@ body {
 
   .bannerContent {
     width: 548px;
+  }
+
+  .textContainer {
+    width: 35%;
   }
 
   .imgContainer {
@@ -331,7 +330,7 @@ body {
 
   .footer {
     height: 80px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .fixed-left {
