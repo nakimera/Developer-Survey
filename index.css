@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700&display=swap");
 
 body {
   font-family: Montserrat;
@@ -8,8 +8,18 @@ body {
   scroll-behavior: smooth;
 }
 
+.workspace {
+  /* border: #ffaf2f solid 1px; */
+  width: 60%;
+  /* height: 100%; */
+}
+
 /* fonts */
 .bold {
+  font-weight: 600;
+}
+
+.bolder {
   font-weight: bold;
 }
 
@@ -221,11 +231,6 @@ body {
   top: -10px;
 }
 
-.fixed-right {
-  top: -50px;
-  right: 30px;
-}
-
 /* footer section */
 .footer {
   font-size: 10px;
@@ -289,12 +294,10 @@ body {
   }
 
   .sectionTxt {
-    width: 60%;
     font-size: 20px;
   }
 
   .roundedImg {
-    border-radius: 50%;
     width: 450px;
     height: 450px;
   }
@@ -309,13 +312,8 @@ body {
   }
 
   .fixed-left {
+    left: 100px;
     top: 30px;
-    left: 250px;
-  }
-
-  .fixed-right {
-    top: 20px;
-    right: 100px;
   }
 
   .chatImg {
@@ -327,7 +325,7 @@ body {
     height: 30px;
     font-size: 18px;
   }
-  
+
   .hfImg {
     height: 30px;
     margin-left: 30px;
@@ -335,5 +333,12 @@ body {
 
   .bannerBtn {
     height: 25%;
+  }
+}
+
+/* Bigger screens */
+@media only screen and (min-width: 1450px) {
+  .fixed-left {
+    left: 240px;
   }
 }
