@@ -224,13 +224,54 @@ body {
 
 /* footer section */
 .footer {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: #3256b8;
-  height: 60px;
+  min-height: 60px;
   color: white;
+  font-size: 12px;
+}
+
+.contactSection {
+  margin: 10px 0;
+}
+
+/* Medium screens */
+@media only screen and (min-width: 768px) {
+
+  .barContent {
+    margin: 0 60px;
+  }
+
+  .banner {
+    margin-left: 60px;
+    height: 50vh;
+  }
+
+  .bannerImg {
+    height: 100%;
+    width: 100%;
+  }
+
+  .powerBar {
+    width: 45%;
+    height: 60px;
+    padding-left: 60px;
+    top: 45vh;
+    font-size: 18px;
+  }
+
+  .section {
+    margin: 30px 60px;
+    height: 50vh;
+  }
 }
 
 /* Big screens */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1400px) {
   .rectangularImg {
     margin: 0;
     width: 100%;
@@ -341,11 +382,6 @@ body {
     margin-left: 100px;
   }
 
-  .footer {
-    height: 80px;
-    font-size: 16px;
-  }
-
   .fixed-left {
     left: 100px;
     top: 30px;
@@ -379,11 +415,30 @@ body {
     top: 85vh;
     font-size: 18px;
   }
-}
 
-/* Bigger screens */
-@media only screen and (min-width: 1450px) {
-  .fixed-left {
-    left: 240px;
+  .footer {
+    padding: 0 120px;
+    font-size: 16px;
+    height: 100px;
+    flex-direction: row;
+  }
+
+  .sponsorSection {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .contactSection {
+    flex-grow: 8;
+    display: flex;
+    justify-content: center;
+  }
+
+  .rightsSection {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
   }
 }
+
