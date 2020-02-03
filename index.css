@@ -241,7 +241,10 @@ body {
 
 /* Medium screens */
 @media only screen and (min-width: 768px) {
-
+  .navText {
+    font-size: 16px;
+  }
+  
   .barContent {
     margin: 0 60px;
   }
@@ -252,7 +255,7 @@ body {
   }
 
   .bannerImg {
-    height: 100%;
+    height: 90%;
     width: 100%;
   }
 
@@ -265,8 +268,17 @@ body {
   }
 
   .section {
-    margin: 30px 60px;
-    height: 50vh;
+    margin: 50px 60px 0 60px;
+    min-height: 70vh;
+  }
+
+  .roundedImg {
+    width: 400px;
+    height: 400px;
+  }
+
+  .bannerHeading {
+    height: 45%;
   }
 }
 
@@ -441,4 +453,3 @@ body {
     justify-content: flex-end;
   }
 }
-
