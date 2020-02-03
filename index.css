@@ -9,9 +9,8 @@ body {
 }
 
 .rectangularImg {
-  width: 60%;
   margin-top: 30px;
-  height: 50%;
+  height: 50vh;
 }
 
 /* fonts */
@@ -234,6 +233,7 @@ body {
 @media only screen and (min-width: 768px) {
   .rectangularImg {
     margin: 0;
+    width: 100%;
     height: 100%;
   }
 
